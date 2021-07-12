@@ -1,0 +1,138 @@
+html {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee2dc;
+  color: #43337c;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wholepage {
+  padding: 20px;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navigation-inline {
+  display: inline;
+
+  padding: 20px 10px 20px 5px;
+  margin: 0px;
+}
+
+.zero li a:hover {
+  color: rgb(253, 204, 113);
+}
+
+.zero li:hover {
+  background-color: #43337c;
+}
+
+.zero {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  background: #251853;
+  display: flex;
+  flex-wrap: wrap;
+}
+.link {
+  text-decoration: underline;
+  color: #43337c;
+  font-size: 1rem;
+}
+
+.zero li a {
+  color: orange;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.counsel {
+  color: #43337c;
+  text-decoration: none;
+}
+
+#active {
+  text-decoration: underline;
+}
+
+img {
+  margin: 0.8rem;
+  max-width: 95%;
+  height: auto;
+}
+
+.images-inline {
+  display: inline;
+}
+
+h1 {
+  margin: 8px;
+  padding: 5px;
+}
+
+h2 {
+  margin: 8px;
+  padding: 5px;
+}
+
+h3 {
+  margin: 8px;
+  padding: 5px;
+}
+
+p {
+  margin: 8px;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .firstrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .secondrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  body {
+    background-color: #eee2dc;
+  }
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1348px) {
+  .firstrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .secondrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  body {
+    background-color: #eee2dc;
+  }
+  html {
+    font-size: 18px;
+  }
+}
